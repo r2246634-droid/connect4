@@ -1,0 +1,21 @@
+# Build output
+target/
+
+# IDE / editor settings (contain machine-specific paths)
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Leftovers from the VS Code "Java Upgrade" extension
+.github/modernize/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Only the screenshots in docs/ are published
+docs/*
+!docs/screenshots/
